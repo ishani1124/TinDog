@@ -1,0 +1,177 @@
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+body{
+    font-family: 'Montserrat';   
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.3;
+    font-weight: bold;
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+
+.container-fluid{
+     position: relative;
+    padding: 3% 15%;
+
+}
+
+/* Navbar brand */
+.navbar-brand{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+.navbar{
+    padding-bottom: 4rem;
+    padding-left: 0;
+}
+.nav-item{
+  padding: 0 15px;
+}
+
+/*Download Button */
+
+.download-button{
+    margin-top: 3rem;
+    text-align: left;
+    margin-right: 2%;
+}
+
+/* image */
+.iphone-img{
+    width: 150%;
+    transform: rotate(30deg);
+    position: relative;
+    right: 0;
+}
+
+#features{  
+    padding: 9% 13% ;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.featp{
+    color: grey;
+    padding: 2%;
+}
+.icon{
+    text-align: center;
+    color: #ef8176;
+    margin-bottom: 1rem;
+}
+.dog-name{
+    color: #000;
+
+}
+.icon:hover{
+    color: #ff4c68;
+
+}
+
+#testimonials{
+    padding: 4% 13%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+.c-height {
+    height: 508px;
+}
+
+ #press{
+    text-align: center;
+    background-color: #ff4c68; 
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 13%;
+    margin: 2%;
+} 
+
+/* CARDS */
+#pricing{
+    padding : 3% 2%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding : 3% 2%;
+} 
+
+
+/* call to action */
+#cta-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2 rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 5% 15% 4%;
+    font-size: 3rem;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  height: 380px;
+}
+
+.b-space{
+    margin-right: 2%;
+}
+
+#btn-cta{
+   margin-bottom: 5%;
+}
+#footer{
+    text-align: center;
+}
+.media{
+   text-align: center;
+   margin-right: 1%;
+   margin-left: 1%;
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+
+
+@media all and (max-width: 1100px) {
+    .iphone-img{
+        transform: rotate(0);
+        width: 80%;
+        margin-top: 7%;
+    } 
+  .title-class{
+      text-align: center;
+  }
+  .press-img{
+      padding-top: 3%;
+      width: 30%;
+  }
+
+  .h1heading{
+      text-align: center;
+  }
+} 
